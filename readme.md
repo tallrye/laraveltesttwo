@@ -5,7 +5,9 @@ This is a test development. The main goal is to use Azure on full capacity with 
 ## OBJECTIVES
 
 1) Create a Laravel 5 application and deploy to Azure through GitHub.
+
 2) Create an SQL Database on Azure and connect to this database on Laravel 5 application.
+
 3) Use Azure CDN for storing assets i.e. css/js files, images etc. For all CRUD operations as possible.
 
 PITFALLS
