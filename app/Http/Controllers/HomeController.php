@@ -13,8 +13,7 @@ class HomeController extends BaseController
     
     public function getIndex()
     {
-    	$names = Dummy::all();
-    	dd($names);
-        return view('welcome');
+    	$serhat = Dummy::find(1);
+        return view('welcome', compact('serhat'));
     }
 }

@@ -13,6 +13,5 @@ class Dummy extends Model
 
 	protected $table = 'tablo1';
 
-	
 }
 

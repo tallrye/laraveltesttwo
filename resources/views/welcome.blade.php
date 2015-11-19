@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="title">
-        {{ trans('localization.welcome') }}. Laravel 5
+        {{ trans('localization.welcome') }}, {{ $serhat->name . ' ' .$serhat->surname }}. Laravel 5
         <br/>
         {{ $globalVariable }} <br/>
         The Language is set to: {{ $l }} <br/>
