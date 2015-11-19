@@ -8,4 +8,5 @@
         The Language is set to: {{ $l }} <br/>
         Go To: <a href="{{ url($l . '/') }}">Home Page</a>
     </div>
+
 @stop
